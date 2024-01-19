@@ -7,7 +7,15 @@
     align-items: center;
     position: relative;
     z-index: 999;
+    
+}
 
+@media (max-width: 768px) {
+    .filters{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
 }
 
 .filters button {
@@ -25,9 +33,16 @@
     
 }
 
+@media (max-width: 768px) {
+    .filters button{
+        width: 90% ;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
 .filters button:hover{
     opacity: 90%;
-    
 }
 
 .filters .locations, 
@@ -37,6 +52,20 @@
     border: 1px solid #DDDDDD;
     position: relative;
     text-align: center;
+    background-color: white;
+}
+
+.amenities .popover{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    .filters .locations, 
+    .filters .amenities {
+        width: 49%;
+        margin: auto;
+    }
 }
 
 .filters .amenities{
@@ -49,7 +78,6 @@
     margin: 0;
     margin-top: 16px;
 }
-
 
 .filters .locations h4, 
 .filters .amenities h4{
@@ -76,29 +104,22 @@
     text-align: start;
     padding: 20px;
     display: none;
-    background-color: white;
     list-style: none;
-    
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .popover ul{
     font-weight: normal;
     list-style: none;
 }
-
 .popover ul li{
     margin-bottom: 5px;
 }
-
 .popover div {
     width: 100%;
     height: 25%;
     margin-bottom: 15px;
-}
-
-.amenities .popover{
-    font-size: 16px;
-    font-weight: normal;
 }
 
 .amenities .popover li {

@@ -1,58 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="styles/4-common.css">
-    <link rel="stylesheet" type="text/css" href="styles/3-header.css">
-    <link rel="stylesheet" type="text/css" href="styles/3-footer.css">
-    <link rel="stylesheet" type="text/css" href="styles/6-filters.css">
-    <link rel="stylesheet" type="text/css" href="styles/7-places.css">
-    <link rel="icon" type="image/png" href="./images/icon.png">
-    <title>AirbBnB clone</title>
-  </head>
-  <body>
+<head>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/7-places.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>AirBnb Clone</title>
+</head>
+
+<body> 
     <header>
+        <div class="logo"></div>
     </header>
     <div class="container">
-      <section class="filters">
-	<div class="locations">
-	  <h3>Location</h3>
-          <h4>Abia, Rivers...</h4>
-          <ul class="popover">
-            <li><h2>Abia</h2>
-              <ul>
-                <li>Aba</li>
-                <li>Umuahia</li>
-              </ul>
-            </li>
-            <li><h2>Rivers</h2>
-              <ul>
-                <li>Port Harcourt</li>
-                <li>Borokiri</li>
-              </ul>
-          </ul>
-        </div>
-        <div class="amenities">
-          <h3>Amenities</h3>
-          <h4>Electricity, Water supply...</h4>
-          <ul class="popover">
-            <li>Electricity</li>
-            <li>Water supply<li>
-            <li>Dry cleaner</li>
-            <li>Kitchen</li>
-          </ul>
-        </div>
-	<button>Search</button>
-      </section>
-      <section class="places">
-        <h1>Places</h1>
-        <article><h2>De Rose</h2></article>
-        <article><h2>Kings Place</h2></article>
-        <article><h2>Toscani</h2></article>
-      </section>
+        <section class="filters">
+            <div class="locations">
+                <h3>States</h3>
+                <h4>Calfonia, Arizona...</h4>
+                <ul class="popover">
+                    <li>
+                        Arizona
+                        <ul>
+                            <li>California</li>
+                            <li>Texas</li>
+                            <li>Florida</li>
+                        </ul>
+                    </li>
+                    <li>
+                        California
+                        <ul>
+                            <li>Arizona</li>
+                            <li>Texas</li>
+                            <li>Florida</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Intemet, kttchen...</h4>
+                <ul class="popover">
+                        <li>Internet</li>
+                        <li>Taxi</li>
+                        <li>TV</li>
+                        <li>Pool</li>
+                </ul>
+            </div>
+            <button>Search</button>
+        </section>
+        <section class="places">
+            <div class="container">
+                <h1>Places</h1>
+                <article>
+                    <h2>my Home</h2>
+                </article>
+                <article>
+                    <h2>Tiny house</h2>
+                </article>
+                <article>
+                    <h2>A suite</h2>
+                </article>
+            </div>
+        </section>
     </div>
     <footer>
-      Best School
+        <p>Best School</p>
     </footer>
-  </body>
+</body>
 </html>
